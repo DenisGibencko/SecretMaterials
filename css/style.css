@@ -1,0 +1,29 @@
+body{
+    
+}
+
+.wrapper {
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper__face img{
+    max-width: 500px;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .wrapper__face img{
+        max-width: 300px;
+    }
+}
+.unactive {
+    display: block;
+}
+.active {
+    display: none;
+}
